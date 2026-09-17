@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biography of Albert Einstein</title>
+</head>
+<body>
+    <h1>Albert Einstein</h1>
+    <p>
+        <strong>Albert Einstein</strong> was one of the most influential
+        scientists of the twentieth century. He was born on
+        <mark>14 March 1879</mark> in Ulm, Germany.
+    </p>
+
+    <h2>Early Life</h2>
+
+    <p>
+        Einstein showed a deep curiosity about the world from a young age.
+        He was fascinated by mathematics, science, and the mysteries of the
+        universe.
+    </p>
+
+    <p>
+        One of his most famous ideas was the relationship between energy and
+        mass, expressed by the equation <strong>E = mc<sup>2</sup></strong>.
+        This equation became one of the most famous equations in physics.
+    </p>
+
+    <p>
+        Einstein believed that curiosity and imagination were essential to
+        learning. He famously said, <q>Imagination is more important than
+        knowledge.</q>
+    </p>
+
+    <blockquote>
+        "The important thing is not to stop questioning. Curiosity has its
+        own reason for existing."
+    </blockquote>
+
+</body>
+</html>
