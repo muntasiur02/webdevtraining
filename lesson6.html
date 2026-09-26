@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Doctor's Appointment</title>
+  </head>
+  <body>
+    
+    <h1> Doctor's Appointment</h1>
+    <p>You must fill the your doctor's appointment form to book your appointment</p>
+
+    <form>
+        <fieldset>
+           <legend>Your Personal Information goes in here:</legend>
+
+           <label>Name:</label><br>
+           <input type="text" id="name" placeholder="Write your full name here with proper spelling"><br><br>
+
+           <label>Patient ID/serial:</label><br>
+            <input type="password" id="pid" placeholder="The ID that has been provided to you as the patient"><br><br>
+
+            
+            <label>Birthdate</label><br>
+        <input type="date" id="Please put in your correct date of birth"><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Information about your visit:</legend>
+
+            <label>You are allowed to choose your doctor. State your option:</label>
+            <select id="doctors">
+                <option value="">Select a doctor of your choice:></option>
+                <option value="dr-johny">Dr. Johny -- medicine</option>
+                <option value="dr-tom">Dr.Tom -- Eyes</option>
+                <option value="dr-chris">Dr.Chris -- Nose</option>
+            </select><br><br><br>
+
+        <label>Your experience of the doctor:</label><br><br>
+        <textarea id="notes" rows="5" column="50" placeholder="Please provide your experince with the doctor, we would love to hear your feedback"></textarea>
+
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Your prefernce of the day of visit:</legend>
+        <input type="checkbox" value="sun"> Sunday<br>
+        <input type="checkbox" value="tue"> Tuesday<br>
+        <input type="checkbox" value="thur"> Thursday<br>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Ready to Book My Appointment">
+
+    </form>
+
+    </body>
+</html>
