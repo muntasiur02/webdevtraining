@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Book Donation Form</title>
+  </head>
+  <body>
+   <form>
+    <fieldset>
+        <legend>Donor Details</legend>
+            <label>Name</label><br>
+                <input type="text" id="name" placeholder="write your full name here"></input><br><br>
+            <label>Donor ID</label>
+                <input type="password" id="ID" placeholder="properly write your donor id here"></input>
+            <label>Donation date</label>
+                <input type="date" id="don-date" placeholder="Select the date"></input>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Book Details</legend>
+            <label>Select your book category</label>
+                <select id="book-cat">
+                    <option value="">Select your book category</option>
+                    <option value="Fiction"> Fictional Books</option>
+                    <option value="Science"> Scientific Books</option>
+                    <option value="History"> Historical Books</option>
+                    <option value="Education"> Academic Books</option>
+            
+            <label>Book conditions</label>
+                <input type="radio" value="new">New</input>
+                <input type="radio" value="good">Good</input>
+                <input type="radio" value="use">Used</input>
+                </select>
+
+            <label>Something about the book</label>
+                <textarea name="book info" id="book info" row="7" column="50"></textarea>
+    </fieldset>
+    <br>
+    <br>
+
+
+    <fieldset>
+        <legend> Drop-Off Days </legend>
+            <label>Select the Day</label>
+                <input type="checkbox" value="mon">Monday</input>
+                <input type="checkbox" value="wed">Wednesday</input>
+                <input type="checkbox" value="fri">Friday</input>
+
+    </fieldset>
+    <br>
+    <br>
+
+        <input type="submit" value="Donate my book">
+
+   </form>
+  </body>
+</html>
