@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Ice Cream Shop Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff4f8;
+      text-align: center;
+      color: #4a2c2a;
+    }
+    h1 {
+      color: #d63384;
+      font-size: 36px;
+    }
+    h1 + p {
+      color: black;
+      font-weight: bold;
+      background-color: white;
+
+    }
+    .shop-description::first-letter {
+      font-size: 40px;
+      color: Red;
+      font-weight: bold;
+    }
+    .menu-box {
+      width: 420px;
+      background-color: white;
+      border: 3px solid #ff69b4;
+      border-radius: 15px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    ul {
+      padding: 0;
+    }
+    ul > li {
+      background-color: cyan;
+      color: Red;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    ul > li:nth-child(3) {
+      background-color: #02ff45;
+      color: #8700b8;   
+    }
+    ul > li:hover {
+      background-color: #f0057a;
+      color: white;
+      cursor: pointer;
+      transform: scale(2);
+    }
+    button {
+      background-color:hotpink ;
+      color:black ;
+      border: none;
+      border-radius: 20px;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Ice Cream Shop Menu</h1>
+  <p>Welcome to ice cream shop</p>
+  <p class="shop-description">
+    This is where we sell many different kinds of ice-creams
+  </p>
+  <div class="menu-box">
+    <h2>Ice Cream Flavours:</h2>
+    <ul>
+      <li>Chocolate </li>
+      <li>Vanilla </li>
+      <li>Mango </li>
+      <li>Strawberry </li>
+      <li>Red Velvet</li>
+    </ul>
+    <button>Order Now</button>
+  </div>
+</body>
+</html>
