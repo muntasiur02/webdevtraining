@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Pet Page</title>
+
+    <style>
+         body{
+            font-family: Arial;
+            background-color: lightyellow;
+            padding: 70px 30px 30px 30px;
+            min-height: 2000px;
+         }
+         h1, h2{
+            color: darkorange;
+         }
+
+         .top-bar{
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            background-color: aliceblue;
+            color: black;
+            padding: 15px 30px;
+         }
+
+         .list-item{
+            background-color: white;
+            border:2px solid black;
+            padding: 10px 20px;
+            margin: 15px;
+         }
+
+         .special-note{
+            position: relative;
+            left: 20px;
+            background-color: lightblue;
+            padding: 10px 20px;
+            margin: 15px;
+         }
+         .pet-card{
+            position: relative;
+            background-color: white;
+            border: 2px solid black;
+            padding: 15px 30px;
+            margin: 20px;
+         }
+
+         .badge{
+            position: absolute;
+            top:10px;
+            right:10px;
+            background-color: aquamarine;
+            color: brown;
+            padding:10px 20px;
+         }
+         .section-label{
+            position: sticky;
+            top:50px;
+            background-color: lightyellow;
+            color:maroon;
+            padding: 10px 20px;
+            margin:15px;
+         }  
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">
+        Welcome to my pet page!
+    </div>
+    
+    <h1>Meet Buddy</h1>
+
+    <p>Buddy is the most adorable pet dog</p>
+
+    <h2>1. Static</h2>
+
+    <div>
+        <p class="list-item">Name:Buddy</p>
+        <p class="list-item">Type:Dog</p>
+        <p class="list-item">Habitat:Home</p>
+    </div>
+
+    <h2>2.Relative</h2>
+
+    <div>
+        <p class="special-note"> Fun fact: Buddy loves playing</p>
+    </div>
+
+    <h2>3.absolute</h2>
+
+    <div class="pet-card">
+        <p>Buddy</p>
+        <p>3 years</p>
+        <p>Bulldog</p>
+        <p class="badge">Favourite</p>
+    </div>
+
+    <h2>4. Sticky</h2>
+    <div class="section-label">More about Buddy
+    <p class="list-item">Age:3 years</p>
+    <p class="list-item">Colour: Brown and white</p>
+    <p class="list-item">Breed: Bulldog</p>
+    </div>
+
+    <h2>More available Pets</h2>
+    <div class="pet-card">
+        <p>Max is the name of a cat</p>
+        <p> It is a Persian cat</p>
+    </div>
+</body>
+</html>
